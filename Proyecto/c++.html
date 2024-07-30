@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Clase de C++</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+	<div id="contenedor">
+	<header>
+		<h2 class="logo">Algobyte</h2>
+		<nav class="navegacion">
+			<a href="#" id="btnquiz">Quiz</a>
+			<a href="#" id="sesion">Cerrar Sesion</a>
+
+		</nav>
+	</header>
+	<div id="teoria">
+			<h2>CURSO DE C++</h2>		
+<h3>Creación de Variables y Constantes</h3>
+<p>
+En C++, puedes crear variables utilizando la sintaxis: tipo_de_dato nombre_de_variable;. Por ejemplo, para crear una variable entera llamada mi_variable, puedes hacer lo siguiente: int mi_variable;. Luego, puedes asignarle un valor utilizando el operador de asignación =. Por ejemplo: mi_variable = 10;. También puedes crear y asignar una variable en una sola línea: int mi_variable = 10;.En cuanto a las constantes, en C++ puedes utilizar la palabra clave const para declarar una constante. Por ejemplo, para declarar una constante entera llamada MI_CONSTANTE con un valor de 100, puedes hacer lo siguiente: const int MI_CONSTANTE = 100;. Una vez que se ha asignado un valor a una constante, no se puede cambiar. </p>
+
+<h3>Tipos de Datos </h3>
+<p>
+C++ tiene varios tipos de datos incorporados, incluyendo: 
+
+Enteros: Representan números enteros sin decimales. Por ejemplo: int, short, long, unsigned int, etc. 
+
+Flotantes: Representan números con decimales. Por ejemplo: float, double. 
+
+Caracteres: Representan caracteres individuales. Por ejemplo: char. 
+
+Booleanos: Representan valores de verdad, es decir, true o false. Por ejemplo: bool. 
+
+Cadenas de texto: Representan secuencias de caracteres. En C++, las cadenas de texto se pueden representar utilizando la clase std::string. 
+</p>
+<h3>Condicionales</h3> 
+<p>
+En C++, puedes utilizar condicionales para tomar decisiones en tu código. Los condicionales más comunes son if, else if y else. Puedes utilizar operadores de comparación como == (igual a), != (diferente de), < (menor que), > (mayor que), <= (menor o igual que), >= (mayor o igual que) para evaluar condiciones. Por ejemplo: </p>
+</p>
+<img src="img/IMG1.jpg">
+<h3>Ciclos </h3>
+<p>
+En C++, puedes utilizar ciclos para repetir un bloque de código varias veces. Los ciclos más comunes son for, while y do-while. Por ejemplo: 
+ </p>
+<img src="img/IMG2.jpg">
+<img src="img/IMG3.jpg">
+<h3>Funciones </h3>
+<p>
+En C++, puedes definir tus propias funciones para realizar tareas específicas. Una función se define utilizando la sintaxis: tipo_de_retorno nombre_de_funcion(parametros) { // Código de la función }. Por ejemplo: 
+
+Puedes llamar a una función utilizando su nombre y pasando los argumentos necesarios. Por ejemplo: int resultado = suma(5, 3);. 
+</p>
+<img src="img/IMG4.jpg">
+<h3>Estructuras de Datos Básicas </h3>
+<p>
+En C++, puedes utilizar estructuras de datos básicas como arreglos y estructuras. 
+
+Arreglos: Un arreglo es una colección de elementos del mismo tipo. Puedes declarar un arreglo utilizando la sintaxis: tipo_de_dato nombre_arreglo[tamaño];. Por ejemplo: int numeros[5];. Puedes acceder a los elementos del arreglo utilizando el índice correspondiente. Por ejemplo: numeros[0] = 10;. 
+
+Estructuras: Una estructura es una forma de agrupar varios tipos de datos relacionados en una sola entidad. Puedes definir una estructura utilizando la sintaxis: struct nombre_estructura { tipo_dato1 nombre1; tipo_dato2 nombre2; ... };.  
+Por ejemplo: 
+</p>
+<img src="img/IMG5.jpg">
+<h3>Programación Orientada a Objetos </h3>
+<p>
+C++ es un lenguaje que admite la programación orientada a objetos (POO). En la POO, puedes definir clases que representan objetos y encapsulan datos y funciones relacionadas. Una clase se define utilizando la sintaxis: class nombre_clase { // Definición de la clase };. Por ejemplo: </p>
+<img src="img/IMG6.jpg">
+<p>
+Puedes crear objetos de una clase utilizando la sintaxis: nombre_clase nombre_objeto;. Por ejemplo: 
+En la programación orientada a objetos, también se utilizan conceptos como la herencia, el polimorfismo y la encapsulación, que permiten una mayor flexibilidad y reutilización de código. 
+</p>
+<img src="img/IMG7.jpg">
+	</div>
+		<div class="fondo fantasma" id="quiz">
+			<div class="contenedor-form login">
+			<h2>Quiz :</h2>
+			
+			
+			<form id="formu">	
+			<h3>Verdadero o Falso:</h3>
+				<p>Para cada uno de los siguientes enunciados usted debe senalar si es verdadero o falso marcando el circulo correspondiente valor 2 pts c/u.</p>
+				<br>
+				<label>En C++, los ciclos solo se repiten una sola vez</label><br>
+
+				<input type="radio"  name="vf1" ><label>verdadero</label>
+				<input type="radio"  name="vf1" ><label>falso</label>
+				<br><br>
+				<label>C++ no admite programacion orientada a objetos</label><br>
+
+				<input type="radio"  name="vf2"><label>verdadero</label>
+				<input type="radio"  name="vf2"><label>falso</label>
+				<br><br>
+				<label>en C++ puedes definir funciones para realizar tareas especificas?</label><br>
+
+				<input type="radio"  name="vf3"><label>verdadero</label>
+				<input type="radio"  name="vf3"><label>falso</label>
+				<br><br>
+			<h3>Seleccion Simple:</h3>
+			<p>Seleccione la opcion correcta segun el enunciado valor 3 pts c/u.</p><br>
+			
+				<label>En c++ la palabra conts sirve para definir...</label>
+				<select>
+					<option>variables</option>
+					<option>constantes</option>
+					<option>globales</option>
+					<option>quadrales</option>
+
+				</select>
+				<br><br>
+				<label>para crear un objeto en C++ se tiene q definir...</label>
+				<select>
+					<option>un objetivo</option>
+					<option>una materia</option>
+					<option>una clase</option>
+					<option>una profesion</option>
+
+				</select>
+				<br><br>
+			<h3>Seleccion Multiple:</h3>
+			<p>Seleccione las opciones correctas segun el enunciado valor 4 pts c/u.</p><br>
+				<label> En C++ se utilizan conceptos como...</label>
+				<input type="checkbox" ><label>Herencia</label>
+				<input type="checkbox" ><label>Polimorfismo</label>
+				<input type="checkbox" ><label>Encapsulacion</label>				
+				<input type="checkbox" ><label>mutacion</label>
+				<br><br>
+				<label>En C++, Los condicionales más comunes son...</label>
+				<input type="checkbox"  ><label>print</label>
+				<input type="checkbox"  ><label>if</label>
+				<input type="checkbox"  ><label>else</label>
+				<input type="checkbox"  ><label>import</label>
+				<br><br>
+				<br>
+				<input type="button" id="inpboton" value="EVALUAR" class="btn">
+			</form>
+			</div>
+		</div>
+
+		<div class="fondo fantasma" id="nota">
+			<div class="contenedor-form login">
+			<form>
+			<h2>Resultados del Quiz:</h2>
+			<br></br>
+			<p>El usuario obtubo una puntuacion de;</p>
+			<h3 id="notanumero"></h3>
+			<br></br>
+			<!--button class="btn" id="inpcerti">Optener Certificado</button-->
+			<a href="certificadoc.html" class="btn">Optener Certificado</a>
+			</div>
+			</form>
+		</div>
+		<div class="fondo fantasma" id="tiempo">
+			<div class="contenedor-form login">
+			<form>
+			<h2>Ups el tiempo a caducado...</h2>
+			<button class="btn">regresar</button>
+			</div>
+			</form>
+		</div>
+	</div>
+	<script src="codigoc++.js"></script>
+</body>
+
+</html>

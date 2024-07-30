@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Clase de Python</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+	<div id="contenedor">
+	<header>
+		<h2 class="logo">Algobyte</h2>
+		<nav class="navegacion">
+			<a href="#" id="btnquiz">Quiz</a>
+			<a href="#" id="sesion">Cerrar Sesion</a>
+
+		</nav>
+	</header>
+	<div id="teoria">
+			<h2>CURSO DE PYTHON</h2>		
+			<h3>Creación de Variables y Constantes</h3> 
+			<p>
+			En Python, una variable es simplemente un nombre que se utiliza para hacer referencia a un objeto en memoria. Python deduce el tipo de dato de una variable automáticamente en tiempo de ejecución y podemos cambiar su valor en cualquier momento simplemente asignándole un nuevo valor. Por ejemplo, puedes crear una variable llamada mi_variable y asignarle el valor de 10 de la siguiente manera: mi_variable = 10.En cuanto a las constantes, Python no tiene una manera nativa de definirlas. Sin embargo, por convención, los nombres de las variables que se pretenden usar como constantes se escriben en mayúsculas. Por ejemplo: MI_CONSTANTE = 100. 
+			</p>
+			<h3>Tipos de Datos</h3>
+			<P=p>
+			Python tiene varios tipos de datos incorporados. Algunos de los más comunes incluyen: 
+
+			Enteros: Son números sin decimales. Ejemplo: mi_entero = 10. 
+
+			Flotantes: Son números con decimales. Ejemplo: mi_flotante = 10.5. 
+
+			Cadenas de texto (strings): Son secuencias de caracteres. Se pueden crear usando comillas simples, dobles o triples. Ejemplo: mi_string = "Hola Mundo". 
+
+			Booleanos: Son valores de verdad, es decir, True o False. 
+			</p>
+			<h3>Condicionales</h3>
+			<p>
+			Los condicionales permiten que tu código tome decisiones basadas en ciertas condiciones. El condicional más común es el if, que ejecuta un bloque de código si su condición es verdadera. También puedes usar elif para comprobar múltiples condiciones, y else para especificar qué hacer si ninguna de las condiciones anteriores es verdadera. 
+			</p>
+			<h3>Ciclos</h3>
+			<p>
+			Los ciclos permiten repetir un bloque de código varias veces. Python tiene dos tipos de ciclos: for y while. El ciclo for se utiliza para iterar sobre una secuencia (como una lista o una cadena) o un rango de números. El ciclo while se ejecuta mientras su condición sea verdadera. 
+			</p>
+			<h3>Funciones</h3>
+			<p>
+			Las funciones en Python son bloques de código reutilizables que realizan una tarea específica. Se definen con la palabra clave def seguida del nombre de la función y paréntesis. Los parámetros se especifican entre los paréntesis. 
+			</p>
+			<h3>Estructuras de Datos Básicas </h3>
+			<p>
+			Python tiene varias estructuras de datos incorporadas:
+			Listas: Son colecciones ordenadas y modificables de elementos. Los elementos de una lista pueden ser de cualquier tipo y una lista puede contener elementos de diferentes tipos. 
+
+			Tuplas: Son similares a las listas, pero son inmutables, lo que significa que no puedes cambiar sus elementos una vez que se han asignado. 
+
+			Diccionarios: Son colecciones no ordenadas de pares clave-valor. A diferencia de las listas y las tuplas, que se indexan por un número, los diccionarios se indexan por claves, que pueden ser de cualquier tipo inmutable. 
+			</p>
+			<h3>Programación Orientada a Objetos </h3>
+			<p>
+			La programación orientada a objetos (POO) es un paradigma de programación que se basa en el concepto de "objetos", que pueden contener datos y código: datos en forma de campos (también conocidos como atributos), y código, en forma de procedimientos (también conocidos como métodos). En Python, la POO se implementa creando clases, que son prototipos para los objetos. Una clase puede contener atributos (variables) y métodos (funciones). Puedes crear una nueva instancia de una clase creando un objeto de esa clase. 
+			</p>
+		</div>
+		<div class="fondo fantasma" id="quiz">
+			<div class="contenedor-form login">
+			<h2>Quiz :</h2>
+			
+			
+			<form id="formu">	
+			<h3>Verdadero o Falso:</h3>
+				<p>Para cada uno de los siguientes enunciados usted debe senalar si es verdadero o falso marcando el circulo correspondiente valor 2 pts c/u.</p>
+				<br>
+				<label>En Python, una variable es simplemente un nombre que se utiliza para hacer referencia a un objeto en memoria</label><br>
+
+				<input type="radio"  name="vf1" ><label>verdadero</label>
+				<input type="radio"  name="vf1" ><label>falso</label>
+				<br><br>
+				<label>Los enteros son numeros con decimales</label><br>
+
+				<input type="radio"  name="vf2"><label>verdadero</label>
+				<input type="radio"  name="vf2"><label>falso</label>
+				<br><br>
+				<label>las cadenas de texto string son secuencias de caracteres</label><br>
+
+				<input type="radio"  name="vf3"><label>verdadero</label>
+				<input type="radio"  name="vf3"><label>falso</label>
+				<br><br>
+			<h3>Seleccion Simple:</h3>
+			<p>Seleccione la opcion correcta segun el enunciado valor 3 pts c/u.</p><br>
+			
+				<label>Los ciclos permiten repetir un bloque de código...</label>
+				<select>
+					<option>una vez</option>
+					<option>tres veces</option>
+					<option>varias veces</option>
+					<option>ninguna vez</option>
+
+				</select>
+				<br><br>
+				<label>los condicionales permiten que tu codigo tome deciciones basadas en ciertas...</label>
+				<select>
+					<option>aliaciones</option>
+					<option>especificaciones</option>
+					<option>deciciones</option>
+					<option>condiciones</option>
+
+				</select>
+				<br><br>
+			<h3>Seleccion Multiple:</h3>
+			<p>Seleccione las opciones correctas segun el enunciado valor 4 pts c/u.</p><br>
+				<label>Los tipos de ciclos en python son...</label>
+				<input type="checkbox" ><label>for</label>
+				<input type="checkbox" ><label>if</label>
+				<input type="checkbox" ><label>while</label>				
+				<input type="checkbox" ><label>else</label>
+				<br><br>
+				<label>Algunos de los tipos de datos en python son...</label>
+				<input type="checkbox"  ><label>Enteros</label>
+				<input type="checkbox"  ><label>ligeros</label>
+				<input type="checkbox"  ><label>undible</label>
+				<input type="checkbox"  ><label>Flotantes</label>
+				<br><br>
+				<br>
+				<input type="button" id="inpboton" value="EVALUAR" class="btn">
+			</form>
+			</div>
+		</div>
+
+		<div class="fondo fantasma" id="nota">
+			<div class="contenedor-form login">
+			<form>
+			<h2>Resultados del Quiz:</h2>
+			<br></br>
+			<p>El usuario obtubo una puntuacion de;</p>
+			<h3 id="notanumero"></h3>
+			<br></br>
+			<!--button class="btn" id="inpcerti">Optener Certificado</button-->
+			<a href="certificadopython.html" class="btn">Optener Certificado</a>
+			</div>
+			</form>
+		</div>
+		<div class="fondo fantasma" id="tiempo">
+			<div class="contenedor-form login">
+			<form>
+			<h2>Ups el tiempo a caducado...</h2>
+			<button class="btn">regresar</button>
+			</div>
+			</form>
+		</div>
+	</div>
+	<script src="codigopython.js"></script>
+</body>
+
+</html>

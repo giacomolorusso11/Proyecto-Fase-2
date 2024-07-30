@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Inicio</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+	<div id="contenedor">
+	<header>
+		<h2 class="logo">Algobyte</h2>
+		<nav class="navegacion">
+			<a href="Informacion.html">Informacion</a>
+			<a href="Index.html">Iniciar Sesion</a>
+
+		</nav>
+	</header>
+	<div class="fondo" >
+		<div class="contenedor-form login">
+		<form>
+			 
+			<h3>Iniciar sesion</h3>
+			<div class="contenedor-input">
+			<input type="text" required id="usuario">
+			<label for="#">Usuario</label>
+			</div>
+	
+			<div class="contenedor-input">
+			<input type="password" required id="clave">
+			<label for="#">Contrasena</label>
+			</div>
+				<input type="radio"  name="cur" checked id="pyt"><label>Python</label>
+				<input type="radio"  name="cur"         id="cmas"><label>C++</label>
+			<br><br>
+			<input type="button" id="boton" class="btn" value="Iniciar">
+			<label id="msj"></label>
+			<br><br>
+			<a href="registro.html">Inscribir Estudiante</a><br>
+			<a href="clave.html">Cambiar contrasena</a>
+		</form>
+		</div>
+	</div>
+	<script src="codigologin.js"></script>
+</body>
+
+</html>
